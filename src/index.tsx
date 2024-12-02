@@ -15,7 +15,7 @@ import ClientMonitor from 'skywalking-client-js';
 // });
 
 ClientMonitor.register({
-  collector: 'http://127.0.0.1:12800', 
+  collector: 'http://xplat-ac-oap-v10.ac-internal.svc.cluster.local:12800', 
   service: 'ac-test::test-ui',
   pagePath: '/',
   serviceVersion: 'v1.0.0',
